@@ -1,0 +1,109 @@
+
+#title{
+    background-color: #ff4c68;
+    text-align: center;
+    font-family: Montserrat-Black;
+    color: #fff;
+}
+
+
+.profile-pic{
+    width: 60%;
+}
+
+.random-padding{
+    padding: 7% 15%;
+}
+
+.buttons{
+    padding: 20px;
+}
+.nav-item{
+    padding: 10px;
+}
+
+
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    margin-left: 55%;
+}
+
+.big-heading{
+    font-weight: bold;
+    color: white;
+    size: 4rem;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.job-details{
+    color: white;
+    font-size: 2rem;
+    
+}
+
+.company-name{
+    
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px;
+}
+
+@media (max-width:960px) {
+    .button{
+        padding: 10px;
+    }
+}
+
+#aboutme{
+    font-family: Montserrat-Black;
+    padding: 7% 20%;
+}
+
+.aboutme-container{
+   
+    border: 5px inset;
+}
+
+.aboutme-para{
+    padding-bottom: 50px;
+    font-size: 1.2rem;
+}
+
+.aboutme-photo-img{
+    width: 103%;
+}
+
+.aboutme-button{
+    text-align: center;
+    padding: 25px;
+}
+
+.aboutme-heading{
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+
+.aboutme-photo{
+    text-align: center;
+}
+
+@media (max-width:1020px){
+    .aboutme-photo{
+        display: none;
+    }
+}
