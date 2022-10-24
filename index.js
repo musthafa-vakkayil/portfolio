@@ -1,1 +1,7 @@
-// alert("Website is Under Construction \nSome Functions May not Work Properly");
+$(".profile-pic").mouseover(()=>{
+    $(".profile-pic").removeClass("profile-pic-mouse");
+})
+
+$(".profile-pic").mouseout(()=>{
+    $(".profile-pic").addClass("profile-pic-mouse");
+})

@@ -11,6 +11,12 @@
     width: 60%;
 }
 
+.profile-pic-mouse{
+    border: 5px double;
+    border-radius: 50%;
+    padding: 1%;
+}
+
 .random-padding{
     padding: 7% 15%;
 }
