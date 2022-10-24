@@ -11,10 +11,12 @@
     width: 60%;
 }
 
+@media (min-width:960px) {
 .profile-pic-mouse{
     border: 5px double;
     border-radius: 50%;
     padding: 1%;
+}
 }
 
 .random-padding{
