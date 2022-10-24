@@ -255,9 +255,9 @@
     
   </div>
   <div class="card-body">
-    <p><i class="fa-brands fa-html5"></i> Node.JS</p>
-    <p><i class="fa-brands fa-css3-alt"></i> Express.JS</p>
-    <p><i class="fa-brands fa-square-js"></i> MongoDB</p>
+    <p><i class="fa-brands fa-node"></i> Node</p>
+    <p><i class="fa-brands fa-node-js"></i> Express</p>
+    <p><i class="fa-solid fa-database"></i> MongoDB</p>
   </div>
 </div>
 
@@ -291,26 +291,26 @@
     <div>
       <h1 class="education-heading">Contact Me</h1>
     </div>
-    <form action="">
+    <form action="/" method="post">
 
       <div class="form-group">
         <label for="fname">Name:</label>
-        <input type="text" id="fname" class="form-control" placeholder="Your Name">
+        <input type="text" id="fname" class="form-control" placeholder="Your Name" name="name" required>
       </div>
       
       <div class="form-group">
         <label for="mailid">Email:</label>
-        <input type="mail" id="mailid" class="form-control" placeholder="example@xyz.com">
+        <input type="email" id="mailid" class="form-control" placeholder="example@xyz.com" name="email" required>
       </div>
       
 
       <div class="form-group">
         <label for="message">Message:</label>
-        <textarea id="messge" class="form-control" placeholder="Enter Your Message Here." rows="4"></textarea>
+        <textarea id="messge" class="form-control" placeholder="Enter Your Message Here." rows="4" name="message" required></textarea>
       </div>
 
       <div class="form-group">
-        <button type="submit" class="btn  btn-dark btn-outline-light">Send Message</button>
+        <button type="submit" class="btn  btn-dark btn-outline-light" name="submit">Send Message</button>
       </div>
       
 
